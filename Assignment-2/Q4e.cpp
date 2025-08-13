@@ -11,7 +11,7 @@ void convertToLowercase(char str1[], int n) {
 }
 
 int main() {
-    char str1[10] = "KRishna";
+    char str1[10] = "KRisHna";
     int n = strlen(str1);
     convertToLowercase(str1, n);
     cout << str1 << endl;
